@@ -1,0 +1,10 @@
+print('собака, кот, кит, гусь, ласточка, слон', end = ' ')
+s = 'собака, кот, кит, гусь, ласточка, слон'
+s = s.lower()
+print(s)
+words = s.split(', ')
+print(words)
+words = sorted(words, reverse = False)
+print(words)
+r = ' '.join(words)
+print(r)
