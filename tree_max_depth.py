@@ -37,6 +37,6 @@ root.left.left = Node(4)
 root.left.right = Node(5)
 
 
-print "Height of tree is %d" %(maxDepth(root))
+print("Height of tree is %d" %(maxDepth(root)))
 
-# This code is contributed by Nikhil Kumar Singh(nickzuck_007) 
+# This code is contributed by Nikhil Kumar Singh(nickzuck_007)

@@ -33,7 +33,7 @@ def addEdge(self, v, w):
 # Method to return roots which gives minimum height to tree
 def rootForMinimumHeight(self):
 
-    from Queue import Queue
+    from queue import Queue
     q = Queue()
 
     # First enqueue all leaf nodes in queue
@@ -72,6 +72,6 @@ g.addEdge(4, 3)
 g.addEdge(5, 4)
 res = g.rootForMinimumHeight()
 for i in res:
-    print i,
+    print(i)
 
-# This code is contributed by Nikhil Kumar Singh(nickzuck_007) 
+# This code is contributed by Nikhil Kumar Singh(nickzuck_007)
